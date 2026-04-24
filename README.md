@@ -81,3 +81,6 @@ Real payment gateway integration
 Real-time GPS tracking
 Mobile application (Android/iOS)
 Advanced AI-based crime analytics
+
+<img width="1600" height="730" alt="Landing Page" src="https://github.com/user-attachments/assets/8e2c40b7-33f1-42f1-9375-39f12c87dd35" />
+
