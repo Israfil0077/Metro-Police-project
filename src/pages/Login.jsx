@@ -36,7 +36,7 @@ export default function Login() {
 
       {/* Background Video */}
       <video className="login-video" autoPlay loop muted playsInline>
-        <source src="/login-bg.mp4" type="video/mp4" />
+        <source src={`${import.meta.env.BASE_URL}login-bg.mp4`} type="video/mp4" />
       </video>
       <div className="login-overlay"></div>
 

@@ -1,5 +1,6 @@
 // Admin Dashboard
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import api from '../utils/api';
 import './Dashboard.css';
@@ -55,50 +56,50 @@ export default function AdminDashboard() {
       <div className="quick-actions">
         <h2>Management Tools</h2>
         <div className="actions-grid">
-          {/* <a href="/admin/reports" className="action-card">
+          {/* <Link to="/admin/reports" className="action-card">
             <h3>Crime Reports</h3>
             <p>Manage all crime reports</p>
-          </a>
-          <a href="/admin/criminals" className="action-card">
+          </Link>
+          <Link to="/admin/criminals" className="action-card">
             <h3>Criminal Database</h3>
             <p>Manage criminal records</p>
-          </a>
-          <a href="/admin/maps" className="action-card">
+          </Link>
+          <Link to="/admin/maps" className="action-card">
             <h3>Crime Risk Map</h3>
             <p>View and manage crime data</p>
-          </a>
-          <a href="/admin/predictions" className="action-card">
+          </Link>
+          <Link to="/admin/predictions" className="action-card">
             <h3>Crime Predictions</h3>
             <p>Generate and view predictions</p>
-          </a>
-          <a href="/admin/patrolling" className="action-card">
+          </Link>
+          <Link to="/admin/patrolling" className="action-card">
             <h3>Patrolling Data</h3>
             <p>Manage patrolling information</p>
-          </a>
-          <a href="/admin/sos" className="action-card emergency">
+          </Link>
+          <Link to="/admin/sos" className="action-card emergency">
             <h3>SOS Alerts</h3>
             <p>Monitor emergency alerts</p>
-          </a> */}
-          <a href="/admin/officer-performance" className="action-card">
+          </Link> */}
+          <Link to="/admin/officer-performance" className="action-card">
             <h3>Officer Performance</h3>
             <p>Analytics and performance metrics</p>
-          </a>
-          <a href="/admin/audit-logs" className="action-card">
+          </Link>
+          <Link to="/admin/audit-logs" className="action-card">
             <h3>Audit Logs</h3>
             <p>System activity and audit trail</p>
-          </a>
-          <a href="/admin/crime-trends" className="action-card">
+          </Link>
+          <Link to="/admin/crime-trends" className="action-card">
             <h3>Crime Trends</h3>
             <p>City-level crime analytics</p>
-          </a>
-          <a href="/admin/alerts" className="action-card">
+          </Link>
+          <Link to="/admin/alerts" className="action-card">
             <h3>Alert Broadcasting</h3>
             <p>Create and manage system alerts</p>
-          </a>
-          <a href="/admin/config" className="action-card">
+          </Link>
+          <Link to="/admin/config" className="action-card">
             <h3>System Configuration</h3>
             <p>Manage system settings</p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

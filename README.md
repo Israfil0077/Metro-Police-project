@@ -2,6 +2,10 @@
 
 A Comprehensive Digital Policing Platform
 
+**Live demo:** https://israfil0077.github.io/Metro-Police-project/
+
+The live demo runs the frontend only, without the backend, so nothing is saved. Log in with any password as `citizen@demo.com`, `officer@demo.com` or `admin@demo.com` to see each dashboard. For the full system (Node.js API and MySQL database), follow Getting Started below.
+
 The Metro Police System is a full-stack web application designed to modernize and digitize policing services for Bangladesh Metro Police. It bridges the gap between citizens and law enforcement by providing fast, secure, and accessible online services such as crime reporting, traffic management, and emergency response.
 
 🌐 Overview

@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import DemoBanner from "./components/DemoBanner";
 
 import HelpSupport from './pages/HelpSupport';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -60,7 +61,8 @@ import SystemConfigPanel from "./pages/SystemConfigPanel";
 export default function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+        <DemoBanner />
         <Header />
 
         <Routes>

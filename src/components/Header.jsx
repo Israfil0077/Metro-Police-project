@@ -46,7 +46,7 @@ export default function Header() {
           {/* Logo/Home */}
           <Link to={homeRoute} className="logo">
             {/* Logo Image */}
-            <img src="/logo.png" alt="Metro-Police Logo" className="logo-img" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Metro-Police Logo" className="logo-img" />
             {/* Text */}
             <span className="logo-text">Metro-Police</span>
           </Link>

@@ -76,7 +76,7 @@ export default function Home() {
           muted
           playsInline
         >
-          <source src="/police-bg.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}police-bg.mp4`} type="video/mp4" />
         </video>
 
         {/* Overlay (optional for readability) */}
